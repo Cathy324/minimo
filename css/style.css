@@ -230,3 +230,51 @@ input::-moz-placeholder { /* Firefox 18- */
 #footer .ig{
 	background: url("../images/social.png") no-repeat left;
 }
+
+@media only screen and (max-width: 768px){
+
+	.newsletter{
+		padding: 5% 30%;
+		margin-bottom:100px;
+	}
+	.article_headings{
+		font-size: 20px;
+	}
+	.newsletter label{
+		font-size: 20px;
+	}
+	#footer p{
+		position: absolute;
+		top: 50px;
+		left: 35%;
+	}
+	#footer ul{
+		position: absolute;
+		top: 50px;
+		left: 45%;
+	}
+} 
+
+@media only screen and (max-width: 414px) and (max-width: 600px) {
+	#header {
+		padding: 65px 65px 45px 125px;
+	}
+	.inner li{
+		width: 100%;
+		margin: 0 0 100px 0;
+	}
+	.newsletter{
+		padding: 5% 10%;
+		margin-bottom:100px;
+	}
+	#footer p{
+		position: absolute;
+		top: 50px;
+		left: 33%;
+	}
+	#footer ul{
+		position: absolute;
+		top: 50px;
+		left: 45%;
+	}
+}
